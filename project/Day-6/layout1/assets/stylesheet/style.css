@@ -1,0 +1,68 @@
+.left {
+
+	float: left;	
+}
+
+.right {
+	float: right;	
+
+}
+.box img{
+    display: block;
+	
+	
+}
+img {
+	height: 100px;
+	width: 100px;
+}
+body {
+    padding: 20px;
+	margin: 0 auto;
+}
+
+.image {
+	height: 50px;
+	width: 100px;
+}
+hr {
+	margin: 40px;
+	clear: both;
+}
+.box {
+	padding: 15px;
+	background: pink;
+	border: 10px solid red;
+	box-shadow: 0 0 0 15px yellow inset;
+
+}
+.box1 {
+	background: lightblue;
+	height: 90px;
+	width: 100%;
+	margin: 5px;
+}
+ .box2 {
+	background: lightblue;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix::after, .clearfix::after {
+     content: "";
+     clear:both;
+     display: table;
+ }
+ .clearfix::after {
+ 	clear:both;
+ }
+ .clearfix {
+ 	*zoom: 1;
+ }
+
+}
