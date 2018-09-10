@@ -1,0 +1,72 @@
+*,
+*.before,
+*.after{
+  margin: 0px;
+  padding: 0px;
+}
+
+.box2 {
+  height: 50px;
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 10px;
+  position: fixed;
+  z-index: 2;
+  background: tan;
+}
+.box2 h1{
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 0 30px;
+}
+p {
+  font-style: normal;
+}
+.container {
+  padding: 0 30px;
+  color: black;
+  margin-top: 10%;
+}
+body {
+ color: white;
+ display: inline-block;
+ margin:0 auto;
+  
+}
+.div {
+  display: inline-block;
+  margin: 5px;  
+  padding: 0 30px;
+}
+
+.box1 {
+ color: black;
+ margin-top: 10px;
+
+}
+.box3 {
+  background: black;
+  height: 20px;
+  position: relative;
+  z-index: 1;
+  top: 70px;
+
+ }
+ img{
+   height: 200px;
+   width: 200px;
+ }
+ 
+.image {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -100px;
+ }
+
+ .parent {
+  position: relative;
+  height: 500px;
+  
+ }

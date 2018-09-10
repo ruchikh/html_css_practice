@@ -1,0 +1,21 @@
+ .box{
+   background: salmon;
+   box-sizing: border-box;
+   float: left;
+   padding: 20px;
+   width: 50%;
+
+}
+ .box1{
+	background: lightgreen;
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 50%;
+
+}
+div {
+  
+  font-size: 15px;
+}
+

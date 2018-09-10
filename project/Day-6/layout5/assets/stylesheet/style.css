@@ -1,0 +1,33 @@
+*,
+*.before,
+*.after{
+  padding: 0px;
+}
+
+.header {
+  background: #42f4f1;
+  height: 50px;
+ 
+}
+.nav {
+	text-decoration-color: #5041f4;
+	margin: 20px 10%;
+	float: left;
+
+}
+.box2 {
+    width: 50%;
+    text-align: center;
+	margin: 0 auto;
+	color: red;
+
+}
+.image {
+	margin: 2% 8%;
+	display: inline-block;
+	
+}
+img {
+	height: 100px;
+	width: 100px;
+}
