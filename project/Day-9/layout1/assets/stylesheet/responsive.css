@@ -1,0 +1,54 @@
+/*for mobile*/
+@media screen and (max-width: 500px) {
+	.mobile-collapse {
+		width: auto;
+		float: none;
+		margin: 0;
+	}
+	.hide {
+		display: none;
+	}
+	.nav, li, ul {	
+	display: inline-block;
+	padding: 5px 15px;
+	background: #dbd9d4;
+	text-decoration: none;
+	color: black;
+	}		
+.second-section {
+	width: 100%;
+	}
+}
+
+/*for tablet*/
+@media screen and (max-width: 620px){
+	.third-section{
+	width: 100%;
+	margin: 20px;
+}
+
+}
+@media screen and (max-width: 900px){
+	.third-section{
+	width: 100%;
+	margin: 20px;
+}
+.nav {
+	display:inline-block;
+	width: auto;
+	border-bottom-color: 1px solid gray;
+	margin: 0 -2px;
+}
+.nav1{
+	padding: 0;
+}
+
+}
+
+.one-third {
+	width: 47%;
+}
+
+.one-third-second {
+
+}

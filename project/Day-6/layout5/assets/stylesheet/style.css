@@ -10,12 +10,11 @@
  
 }
 .nav {
-	text-decoration-color: #5041f4;
+	text-decoration: none;
 	margin: 20px 10%;
-	float: left;
-
+	float: left;	
 }
-.box2 {
+.text {
     width: 50%;
     text-align: center;
 	margin: 0 auto;

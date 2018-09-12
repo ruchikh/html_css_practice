@@ -42,6 +42,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 
 /*
   ========================================
@@ -49,19 +55,65 @@ table {
   ========================================
 */
 
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
 }
+.col1{
+  width: 33.33%;
+}
+.col2{
+  width: 66.66%;
+}
+.col1,
+.col2 {
+  display: inline-block;
+  vertical-align: top;
+}
+.grid,
+.col1,
+.col2 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
 .container {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
   width: 960px;
 }
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+.logo {
+  border-top: 4px solid #648880;
+  padding: 40px 0 22px 0;
+  float: left;
+}
+.logo {
+  
+  float: left;
+}
+
 /*
   ========================================
   Typography
@@ -88,4 +140,20 @@ h1, h3, h4, h5, p {
 }
 .hero {
   padding: 22px 80px 66px 80px;
+}
+.primary-footer small {
+  float: left;
+}
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.container,
+.grid {
+  margin: 0 auto;
+  width: 960px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
 }

@@ -1,21 +1,22 @@
- .box{
+ *,*.before, *.after {
+  margin: 0;
+  padding: 0;
+}
+
+ .left{
    background: salmon;
-   box-sizing: border-box;
-   float: left;
    padding: 20px;
    width: 50%;
+   position: fixed;
+   box-sizing: border-box;
+   float: left;
 
 }
- .box1{
+ .right{
 	background: lightgreen;
-	display: inline-block;
 	box-sizing: border-box;
 	padding: 20px;
 	width: 50%;
-
-}
-div {
-  
-  font-size: 15px;
+	float: right;
 }
 

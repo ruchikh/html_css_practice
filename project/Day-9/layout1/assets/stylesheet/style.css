@@ -1,0 +1,242 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+
+}
+
+/* Main CSS */
+.header {
+  width: 100%;
+  padding: 40px 40px;
+  font-size: 10px;
+  background: #efede8;
+  font-size: 30px;
+}
+.nav, li, ul {	
+	display: inline-block;
+	padding: 5px 15px;
+	background: #dbd9d4;
+	text-decoration: none;
+	color: black;
+
+}
+.nav1 ,ul{
+	width: 100%;
+	display: inline-block;
+}
+li {
+	border-right: 1px solid gray; 
+	font-size: 15px;
+}
+.section-inner {
+	max-width: 120000px;
+	width: 100%;
+	background: #898b8e;
+	padding: 20px;
+}
+
+.body-content {
+	padding: 50px;
+	background: #FFF;
+
+}
+.one-third {
+	width: 33%;
+	float: left;
+	padding: 10px 20px;
+}
+.one-third-second {
+	display: inline-block;
+	width: 33%;
+
+}
+.one-third-last {
+	float: right;
+	width: 33%;
+    
+}
+.primary-section {	
+	padding: 15px;
+	background: #FFF;	
+	margin: 5px 0;	
+}
+.second-section{
+	width: 65%;
+	float:left;
+}
+.important {
+	height: auto;
+	background: lightblue;
+	padding: 15px;
+	margin: 10px 0;
+}
+.third-section{
+	width: 30%;
+	float: right;
+	margin: 20px;
+}
+.color {
+	background: #f4d67a;
+}
+ h2, h6 {
+	font-size: 20px;
+	color: black;
+	line-height: 2em;
+	font-weight: bold;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+
+}
+
+@media screen and (max-width: 900px){
+	.nav, li, ul {	
+	width: 22%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 5px 15px;
+	background: #dbd9d4;
+	text-decoration: none;
+	color: black;
+	margin: 0px
+}
+ul {
+	width: 100%;
+	padding: 0;
+}
+.important {
+	width: 80%;
+}
+
+}
+/*for table*/
+@media screen and (max-width: 620px){
+   
+	.nav, li, ul {	
+	width: 30%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 5px 15px;
+	background: #dbd9d4;
+	text-decoration: none;
+	color: black;
+	margin: 0px
+}
+ul {
+	width: 100%;
+	padding: 0;
+}
+.one-third, .one-third-second {
+	width: 50%;
+}
+.one-third-last {
+	width: 100%;
+}
+.third-section,{
+	width: 100%;
+	margin: 20px;
+}
+.important {
+	width: 80%;
+}
+}
+
+/*for mobile*/
+@media screen and (max-width: 500px) {
+	.mobile-collapse {
+		width: auto;
+		float: none;
+		margin: 0;
+	}
+	.hide {
+		display: none;
+	}
+	.nav, li, ul {	
+	width: 45%;
+	box-sizing: border-box;
+	display: inline-block;
+	padding: 5px 15px;
+	background: #dbd9d4;
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid gray;
+	margin: 0px
+}
+ul {
+	width: 100%;
+	padding: 0;
+}
+.third-section,{
+	width: 100%;
+	margin: 20px;
+}
+.important {
+	width: 80%;
+}
+}
+
+p {
+	line-height: 1.5em;
+
+}
+.footer {
+	background: gray;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	clear: both;
+}
+
+
+./*clearfix {
+	clear: both;
+}*/

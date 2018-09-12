@@ -1,4 +1,18 @@
+body {
+  background: gray;
+}
 
+.container {
+  background: white;
+  width: 50%;
+  margin:0 auto;
+  overflow: auto;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 40px;
+}
 .inline-block {
   border-radius: 5px;
   background: salmon;
@@ -20,7 +34,6 @@
   border-radius: 5px;
   background: lightgreen;
   border: 1px solid green;
-  vertical-align: top;
   float: left;
 }
 
@@ -33,17 +46,7 @@
   border: 1px solid red;
   margin: 5px 0 15px 0;
 }
-
-
-.container {
-  background: white;
-  width: 50%;
-  margin:0 auto;
-  overflow: auto;
-  
-}
 div {
-
   padding: 10px;
   box-sizing: border-box;
   width: 45%;
@@ -68,6 +71,3 @@ code{
   
   *zoom: 1;
 }*/
-body {
-  background: gray;
-}
