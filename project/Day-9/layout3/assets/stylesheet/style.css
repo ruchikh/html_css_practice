@@ -54,7 +54,7 @@ table {
 .cf:before, .cf:after {
   content: "";
   display: table;
-  clear: both;
+ 
 }
 .cf:after {
 	clear: both;

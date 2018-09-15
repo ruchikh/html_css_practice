@@ -1,0 +1,193 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+.main-container:before,.second-wrapper:before, .second-wrapper:after, .main-container:after{
+	content= " ";
+	display: table;
+}
+.main-container:after, .second-wrapper:before, .second-wrapper:after, .main-container:before {
+	clear: both;
+}
+body {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.main-container {
+	max-width: 12000px;
+	width: 100%;
+	margin: 0 auto;
+	background: transparent;
+}
+
+.container {
+	
+	padding: 50px 50px;
+}
+.mssively {
+	/*position: absolute;
+	text-align: center;
+	margin-top: 20px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);*/
+
+	text-align: center;
+}
+.right-nav {
+	
+}
+.nav-header {
+	width: 100%;
+	height: 5em;
+}
+h1 {
+	font-size: 40px;
+}
+/*
+hr .text{
+	width: 50%;
+	float:right;
+}*/
+
+.btn {
+	background-color: black;
+    box-shadow: inset 0 0 0 2px;
+    color: #ffff;
+    padding: 10px;
+}
+.wrapper {
+	padding: 80px 50px;
+	background: #ffff;
+}
+.second-wrapper{
+	margin:0 auto;
+	max-width: 1100px;
+	width:100%;
+	text-align: center;
+}
+.nav-header
+{
+	
+}
+.nav {
+	padding: 0 10px;
+	text-decoration: none;
+	color: black;
+}
+.social-nav {
+	display: inline-block;
+	float: right;
+	padding: 0 10px;
+	text-decoration: none;
+	color: black;
+}
+[class*='clo-']{
+	float: left;
+	width: 100%;
+	min-height: 1px;
+}
+.col {
+	background: #fff;
+	border-radius: 3px;
+	/*color: turquoise;*/
+	/*text-align: center;*/
+} 
+
+@media all and(min-width: 960px){
+
+	.clo-wd-1 {width: 8.33333%;}
+	.clo-wd-2 {width: 16.66667%;}
+	.clo-wd-3 {width: 25%;}
+	.clo-wd-4 {width: 33.33333%;}
+	.clo-wd-5 {width: 41.66667%;}
+	.clo-wd-6 {width: 50%;}
+	.clo-wd-7 {width: 58.33333%;}
+	.clo-wd-8 {width: 66.66667%;}	
+	.clo-wd-9 {width: 75%;}
+	.clo-wd-10 {width: 83.33333%;}
+	.clo-wd-11 {width: 91.66667%;}
+	.clo-wd-12 {width: 100%;}
+
+}
+
+/*.row {
+	max-width: 80em;
+	width: 100%;
+	margin: 0 auto;
+}*/
+
+.clo-wd-6 {
+    /* display: inline-block; */
+    width: 46%;
+    margin: 20px;
+}
+
+
+
+
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color:;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-section {
+	width: 46%;
+	padding: 50px;
+	border-right: 1px solid gray;
+	display: inline-block;
+}
+
+.address-section {
+	width: 46%;
+	float:right;
+	padding: 50px;
+}
+hr {
+	width: 100%;
+}
+/*.name{
+	width: 50%;
+}
+.email {
+	width: 50%;
+
+}*/
+
