@@ -1,0 +1,125 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="assets/stylesheet/style.css">
+	<title>grid practice</title>
+</head>
+<body>
+	<div class="albums">
+		<div class="album">
+			<img class="album_artwork" src="assets/media/pic01">
+			<div class="album_details">
+				<h2>Album Title</h2>
+				<p class="album_artist">Artist Name</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>			
+		</div>
+
+		<div class="album">
+			<img class="album_artwork" src="assets/media/pic02">
+			<div class="album_details">
+				<h2>Album Title</h2>
+				<p class="album_artist">Artist Name</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+				
+			</div>			
+		</div>
+
+		<div class="album">
+			<img class="album_artwork" src="assets/media/pic03">
+			<div class="album_details">
+				<h2>Album Title</h2>
+				<p class="album_artist">Artist Name</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>			
+		</div>
+
+		<div class="album">
+			<img class="album_artwork" src="assets/media/pic04">
+			<div class="album_details">
+				<h2>Album Title</h2>
+				<p class="album_artist">Artist Name</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>			
+		</div>
+
+		<div class="album">
+			<img class="album_artwork" src="assets/media/pic01">
+			<div class="album_details">
+				<h2>Album Title</h2>
+				<p class="album_artist">Artist Name</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>			
+		</div>
+
+		<div class="album">
+			<img class="album_artwork" src="assets/media/pic02">
+			<div class="album_details">
+				<h2>Album Title</h2>
+				<p class="album_artist">Artist Name</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>			
+		</div>
+
+		<div class="album">
+			<img class="album_artwork" src="assets/media/pic03">
+			<div class="album_details">
+				<h2>Album Title</h2>
+				<p class="album_artist">Artist Name</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua..</p>
+				<p class="album_desc"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>			
+		</div>
+	</div>
+
+	<style>
+
+	   img {
+	    	width: 100%;
+	    	/*height: auto;/*/
+	    }
+
+		.albums {
+			background: pink;
+			display: grid;
+			grid-gap: 20px;
+			grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		}
+
+		.album {
+			background: rgba(255, 255, 255, 0.2);
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1)
+			padding: 20px;
+			display: grid;
+			grid-template-columns: 150px 1fr;
+			grid-gap: 10px;
+			align-items: center;
+			color: white;
+			font-weight: 100;
+		}
+		.album_artwork {
+			width: 100%;
+		}
+	</style>
+</body>
+</html>
