@@ -1,0 +1,119 @@
+
+html {
+	box-sizing: border-box;
+	font-family: "Loto", "Lucide Grande", "Lucida Sans sans-serif";
+	font-weight: normal;
+}
+
+*,
+*:before, 
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+/*Main CSS*/
+img {
+	width: 100%;
+}
+.wrapper {
+	 display: grid;
+     grid-gap: 20px;
+}
+
+
+/*Top section*/
+
+.top{
+	display: grid;
+	width: 100%;
+	height: 50px;
+	grid-template-columns: auto auto;
+	background: black;
+	justify-content: start;
+	align-items: center;
+	grid-gap: 20px;
+	color: white;
+}
+.ball {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+}
+
+/*Header*/
+
+
+.hero{
+	display: grid;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    height: 300px;
+    overflow: hidden;
+    color: white;
+}
+
+
+.text-area {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.text-area h1 {
+	font-weight: 200;
+	font-size: 6em;
+}
+
+/*Gallery*/
+img {
+	width: 100%;
+}
+.image-gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 20px;
+	padding: 15px 70px;
+}
+
+.image-gallery h2:before, .image-gallery h2:after {
+	display: block;
+	content: '';
+}
+
+/*Responsive*/
+
+
+@media (max-width: 700px){
+
+.image-gallery{
+	width: 100%;
+	padding: 0;
+	grid-gap: 20px;
+}
+.col {
+	background: black;
+	color: white;
+}
+ 	
+ }
+
+ @media (max-width: 960px){
+
+.text-area {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+ 	
+ }

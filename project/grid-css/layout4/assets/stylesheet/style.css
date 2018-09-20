@@ -1,0 +1,81 @@
+html {
+	box-sizing: border-box;
+	font-family: "Loto", "Lucide Grande", "Lucida Sans sans-serif";
+	font-weight: normal;
+}
+
+*,
+*:before, 
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+/*Main CSS*/
+
+.header {
+	display: grid;
+	grid-template-columns: 1fr;
+	background: #2c3451;
+	color: blue;
+	padding: 40px;	
+	justify-items: center;
+	align-items: center;
+	color: white;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: 2fr 10fr 2fr;
+	height: 500px;
+
+}
+
+/*Navigation*/
+
+.navigation {
+	background: #f7bd2a;
+	padding: 40px;	
+	align-items: start;
+	color: black;
+	
+}
+.main {
+	background: white;
+	color: blue;
+	padding: 40px;	
+	color: black;
+}
+.link {
+	background: #f72997;
+	color: blue;
+	padding: 40px;	
+	align-items: start;
+	color: black;
+
+}
+/*footer*/
+
+.footer {
+
+	display: grid;
+	background: #1caf3c;
+	padding: 40px;	
+	justify-items: center;
+	align-items: center;
+	color: white;
+
+}
+/*Responsive*/
+
+@media (max-width: 759px){
+	.wrapper {
+	height:800px;
+	display: grid;
+	grid-template-rows: 2fr 10fr 2fr ;
+	grid-template-columns: none;
+
+}
+}
+

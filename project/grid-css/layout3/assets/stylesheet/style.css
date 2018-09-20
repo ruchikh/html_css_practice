@@ -1,0 +1,154 @@
+html {
+	box-sizing: border-box;
+	font-family: "Loto", "Lucide Grande", "Lucida Sans sans-serif";
+	font-weight: normal;
+}
+body {
+	background: #1b1f2d;
+}
+
+*,
+*:before, 
+*:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: grid;
+	color: white;
+	padding: 30px;
+}
+.text {
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+}
+.main-wrapper {
+	display: grid;
+	padding: 0 50px;
+	grid-gap: 20px;
+	margin: 0 auto
+}
+
+/*Navigation*/
+
+.navigation {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	background: white;
+	align-items: center;
+	color: blue;
+	padding: 10px;	
+	justify-items: center;
+	align-items: center;
+	border-top: 5px solid blue;
+	
+}
+.nav-col {
+	color: blue;
+	font-weight: 100;
+	font-size: 25px;
+}
+a {
+	text-decoration: none;
+	color: red;
+}
+ h1, p, a{
+ 	padding: 5px;
+ }
+.right-col{
+	background: red;
+	padding: 10px;
+	color: white;
+}
+.title-col {
+	background: blue;
+	padding: 5px;
+}
+.main {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap:20px;
+}
+
+ /*Section*/
+
+.section-mid {
+	background: white;
+	color: black;
+}
+.section-right{
+	display: grid;
+	grid-gap: 10px;
+}
+
+
+.section-left{
+	display: grid;
+	align-items: start;
+	justify-content: start;
+	grid-gap: 10px;
+}
+ .text-area {
+ 	display: grid;
+ 	padding: 30px;
+ }
+
+
+.sec-1 {
+     background: white;
+     border-top: 5px solid blue;
+     color: black;
+     padding-bottom: 0px;
+}
+
+.sec-2 {
+     background: white;
+     border-top: 5px solid blue;
+     color: black;
+     padding: 15px;
+}
+
+/*Image*/
+
+img {
+ 	height: 100px;
+	width: 100px;
+	align-items: center;
+	padding: 10px;
+ }
+ .image {
+ 	height: 300px;
+ 	width: 300px;
+ 	border-radius: 50%;
+ }
+
+ /*Responsive*/
+
+@media (max-width: 900px){
+ 	.main {
+ 		grid-template-columns: repeat(2, 1fr);
+ 	}
+ 	.section-mid {
+ 		order: 2;
+ 	}
+}
+
+@media (max-width: 720px){
+ 	.main {
+ 		grid-template-columns: 2fr;
+ 	}
+ 	.section-mid {
+ 		order: 0;
+ 	}
+
+ 	.section-left{
+	display: grid;
+	grid-gap: 10px;
+}
+}
+
+
+

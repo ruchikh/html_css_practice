@@ -14,7 +14,6 @@ img {
 	 display: grid;
      grid-gap: 20px;
      background: blue;
-
 }
 
 .top {
@@ -54,20 +53,13 @@ img {
 	margin: 0;
 }
 
-/*.cta1 {
-	grid-area: cta1;
-
-}*/
-/*
-.cta2 {
-	grid-area: cta2;
-}*/
-
 .price {
 	font-weight: 300;
 	font-size: 60px;
 
 }
+
+/*Menu*/
 
 .menu ul {
 	display: grid;
@@ -92,6 +84,7 @@ img {
 [aria-controls="menu-list"] {
   display: none;
 }
+/*Feature*/
 
 .features {
   display: grid;
@@ -123,6 +116,8 @@ img {
   align-items: center;
 }
 
+/*Gallery*/
+
 .gallery {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -148,6 +143,8 @@ img {
 	height: 10px;
 	background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
 }
+
+/*Responsive*/
 
 @media (max-width: 1000px){
  	.menu {
