@@ -1,0 +1,300 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background: #1a3a25;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+  
+/*
+==========================
+        Main CSS
+==========================
+*/
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+   font-style: italic;
+}
+
+/*Container*/
+
+.main-container {
+  max-width: 1100PX;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px;
+
+}
+.primary-container {
+  position: relative;
+  background-size: cover;
+}
+
+/*Header*/
+
+
+.hill-image {
+  width: 100%;
+  height: 300px;
+}
+
+}
+.header {
+  position: relative;
+}
+.hero {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 20%;
+
+}
+
+/*Navigation*/
+
+.navigation {
+  transform: translate(-50%);
+  position: absolute;
+  left: 50%;
+  top: 0;
+  color: black;
+  text-align: center;
+}
+li, a {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  
+}
+
+.media-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: #c9ced6;
+  grid-gap: 20px;
+  padding: 20px;
+  border-top: 5px solid black;
+}
+
+.audio-text{
+  height: 250px;
+}
+}
+video {
+     margin-top: 60px;
+}
+
+audio {
+  margin-top: 60px;
+}
+
+
+/*Embed Media*/
+
+.text{
+  text-align: center; 
+}
+
+.A-Classic{
+  background: #1eb213;
+  padding: 20px;
+}
+
+.embaded-video {
+  padding: 20px;
+  background: white;
+}
+
+
+/*Form Section*/
+
+.Form-section {
+  background: #b7e5de;
+  padding: 20px;
+}
+
+.contact {
+  width: 80%;
+  padding:20px;
+  margin: 0 auto;
+  background: white;
+}
+
+.name {
+  border-radius: 5px;
+  width: 45%;
+  padding: 10px;
+  display: inline-block;
+}
+.email {
+  border-radius: 5px;
+  width: 45%;
+  padding: 10px;
+   display: inline-block;
+}
+.message {
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+
+}
+.subject {
+  border-radius: 5px;
+  width: 90%;
+  padding: 10px;
+}
+
+.submit {
+  padding: 10px 15px;
+  background: #284725;
+  color: white;
+  border-radius: 5px;
+}
+
+.submit:hover {
+   background-color: green;
+}
+
+/*MAP SECTION*/
+
+.map-section{
+  background: #383d39;
+  color: white;
+}
+
+.map {
+  padding: 30px;
+  text-align: center;
+}
+
+@media (max-width: 550px) {
+
+  .media-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #c9ced6;
+  grid-gap: 20px;
+  padding: 20px;
+  border-top: 5px solid black;
+}
+.superhero{
+  grid-column: span 2;
+}
+
+.audio-player{
+  grid-column: span 2;
+}
+
+iframe {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+.embaded-video {
+  padding: 0px;
+  background: white;
+}
+
+.map {
+  padding: 0px;
+  text-align: center;
+}
+
+
+/*
+=================
+Responsive
+=================
+*/
+}
+@media (max-width: 750px) {
+
+  .media-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: #c9ced6;
+  grid-gap: 20px;
+  padding: 20px;
+  border-top: 5px solid black;
+}
+
+.video {
+  width: 100%;
+  grid-column: span 2;
+}
+  .name {
+  border-radius: 5px;
+  width: 96%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.email {
+  border-radius: 5px;
+  width: 96%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+}
+
+@media (max-width: 869px) {
+
+  .name {
+  border-radius: 5px;
+  width: 96%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.email {
+  border-radius: 5px;
+  width: 96%;
+  padding: 10px;
+  margin-top: 10px;
+}
+}
+
+}
