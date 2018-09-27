@@ -1,0 +1,408 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+*,*:before,*:after{
+	box-sizing: border-box;
+}
+/*Main CSS*/
+
+img {
+	height: 200px;
+}
+h1 {
+	font-size: 35px;
+	font-weight: bold;
+	padding:10px;
+	font-family: Arial;
+}
+h2 {
+	font-size: 30px;
+	font-weight: bolder;
+	font-family: Arial;
+	padding: 10px 0;
+}
+
+/*container*/
+
+
+
+.perimary-container {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+/*Header*/
+
+
+
+.header {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	background: #1b2f4f;
+	color: white;
+	padding: 15px;
+
+}
+
+.logo {
+	padding-left: 50px;
+	font-weight: bolder;
+	text-decoration: none;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+/*Navigation*/
+
+.navigation {
+	padding-top: 15px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	/*padding: 10px;*/
+	
+}
+
+/*Hero section*/
+
+.hero {
+	background-image: linear-gradient(#052844, #50edb8);
+	text-align: center;
+	padding: 50px 0;
+	color: white;
+	
+}
+
+.hero-img {
+	border-radius: 50%;
+}
+
+/*Portfolio*/
+
+.portfolio-section {
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+	color: #011326;
+}
+
+.portfolio {
+	width: 80%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+	padding:20px;
+}
+.image {
+	width: 100%;
+}
+
+
+/*About*/
+
+.about{
+	background-image: linear-gradient(#052844, #50edb8);
+	padding: 50px;
+	color: white;
+
+}
+.paragraph {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+	padding: 40px;
+	align-items: start;
+	justify-content: start;
+}
+button {
+	text-align: center;
+	padding: 10px 30px;
+	border: 1px solid black;
+	font-weight: bold;
+
+}
+
+/*Form section*/
+
+.Form-section {
+	padding: 30px;
+	text-align: left;
+}
+.contact-us {
+	
+	padding: 50px;
+	color: #011326;
+}
+.width{
+	width: 80%;
+	border: 0;
+	outline: 0;
+	background: transparent;
+	border-bottom: 1px solid gray;
+}
+.text{
+	text-align: center;
+}
+.padding {
+	padding: 10px;
+	border-bottom: : 1px solid black;
+}
+
+.submit {
+	background: #044424;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 5px;
+
+}
+.submit:hover, button:hover{
+	background-color: black;
+	color: white;
+}
+
+/*Map section*/
+
+.map-section {
+	padding: 30px;
+	text-align: center;
+	background: #707572;
+}
+.map {
+	width: 80%;
+	text-align: center;
+}
+
+.table {
+	padding: 30px;
+	text-align: center;
+}
+
+/*Table*/
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+th,
+td {
+  padding: 6px 15px;
+  text-align: left;
+}
+th {
+  background: #1b2f4f;
+  color: blue;
+  text-align: left;
+}
+td {
+background: #385472;
+}
+tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+/*td {
+  border-right: 1px solid #c6c9cc;
+  border-bottom: 1px solid #c6c9cc;
+}*/
+td:first-child {
+  border-left: 1px solid #c6c9cc;
+}
+tr:nth-child(even) td {
+  background: #1b2f4f;
+}
+tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+.sites {
+	color: red;
+}
+
+/*Address*/
+
+.address-section {
+	width: 100%;
+	background: #1b2f4f;
+	padding: 50px 0;
+
+}
+
+.address {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;	 
+	 padding: 10px;
+	 color: white;
+}
+
+.fab {
+	/*padding: 15px;*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.circle {
+	display: inline-block;
+	position: relative;
+	height: 40px;
+	width: 40px;
+	padding: 5px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+.location{
+	text-align: center;
+}
+
+
+.footer{
+	background: #222c38;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 650px){
+
+	.portfolio {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 20px;
+	padding:20px;
+}
+
+.address {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: none;
+	grid-column: span 2;	 
+	 padding: 10px;
+	 color: white;
+}
+.location {
+		width: 100%;
+	padding: 20px;
+	grid-column: span 2;
+	text-align: center;
+}
+.about-atlcampus {
+	width: 100%;
+	padding: 20px;
+	grid-column: span 2;
+	text-align: center;
+}
+.aroundweb{
+		width: 100%;
+	padding: 20px;
+	grid-column: span 2;
+	text-align: center;
+}
+
+.paragraph
+{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column: span 2;
+}
+.para-right {
+	grid-column: span 2;
+}
+
+.navigation {
+
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-column: span-2;
+	color: white;
+	text-decoration: none;
+	padding-top: 20px;
+	grid-gap: 20px;
+
+}
+
+
+.header {
+	display: grid;
+	grid-template-columns: none;
+	/*grid-template-rows: 1fr;*/
+	text-align: center;
+	color: white;
+
+
+}
+.logo {
+	padding-left: 0;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+table {
+	width: 100%;
+}
+.table {
+	width: 100%;
+}
+.fa-dribbble-square {
+	display: grid;
+	grid-column: span 2;
+}
+}
