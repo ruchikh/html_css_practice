@@ -12,6 +12,9 @@ body {
 }
 
 
+/*Main CSS*/
+
+
 a {
   font-weight: 100;
   letter-spacing: 2px;
@@ -28,6 +31,8 @@ img {
   margin: 0 auto;
   padding: 0 50px;
 }
+
+/*Header*/
 
 .header {
 
@@ -50,6 +55,8 @@ form{
   
 }
 
+/*Gallery*/
+
 .image-div {
 	display: flex;
  flex-wrap: wrap;
@@ -64,12 +71,8 @@ form{
   padding: 10px;
   border: 1px solid #e0e1e2;
 }
-/*.img2 {
-  text-align: center;
-  padding: 10px;
-  border: 1px solid #e0e1e2;
-}*/
 
+/*Responsive*/
 
 
 @media all and (max-width: 900px){
