@@ -1,0 +1,16 @@
+$font-family: sans;
+$primary-color: mistyrose;
+$secondary-color: tomato;
+$ternary-color: #e0aa47;
+$primary-text-color: #fff;
+$secondary-text-color: #666159;
+$text-color: #e0aa47;
+
+
+%flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
