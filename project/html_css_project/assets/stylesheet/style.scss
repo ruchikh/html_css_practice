@@ -210,37 +210,53 @@ h5{
 
 
 .btn{
-  		background: $button-color;
-  		border-radius: 15px;
-  		border: none;
-  		padding: 8px 15px;
-  		color:$primary-text-color;
- 			font-size: 10px;
- 			cursor: pointer;
- 			// float: right;
- 			// margin-left: 12em;
- 			// margin-top: 2em;
- 			// display: flex;
-  	}
+	background: $button-color;
+	border-radius: 15px;
+	border: none;
+	padding: 8px 15px;
+	color:$primary-text-color;
+	font-size: 10px;
+	cursor: pointer;
+}
 
-  	.span{
-  		display: flex;
-  		margin-top: 2em;
-  		justify-content: space-between;
-  	}
+.span{
+	display: flex;
+	margin-top: 2em;
+	justify-content: space-between;
+}
 
 
   	// 404Page
 
-  	.errorpage{
-  		height: 400px;
-  		position: relative;
-  	}
+.errorpage{
+	height: 250px;
+	position: relative;
+	font-weight: 600;
+}
 
-  	.errorcontent{
-  		padding: absolute;
-  		text-align: center;
-  		top: 50%;
-  		left: 50%;
-  	}
+.errorcontent{
+	// padding: absolute;
+	text-align: center;
+	margin-top: 8em;
+	// top: 50%;
+	// left: 50%;
+}
   
+.contat_us{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+}
+.map{
+	height: 300px;
+}
+.btn_contact{
+	float: right;
+	background: $button-color;
+	border-radius: 15px;
+	border: none;
+	padding: 8px 15px;
+	color:$primary-text-color;
+	font-size: 10px;
+	cursor: pointer;
+}

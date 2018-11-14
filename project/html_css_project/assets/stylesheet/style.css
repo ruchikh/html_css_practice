@@ -272,13 +272,30 @@ h5 {
   justify-content: space-between; }
 
 .errorpage {
-  height: 400px;
-  position: relative; }
+  height: 250px;
+  position: relative;
+  font-weight: 600; }
 
 .errorcontent {
-  padding: absolute;
   text-align: center;
-  top: 50%;
-  left: 50%; }
+  margin-top: 8em; }
+
+.contat_us {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px; }
+
+.map {
+  height: 300px; }
+
+.btn_contact {
+  float: right;
+  background: #34ba34;
+  border-radius: 15px;
+  border: none;
+  padding: 8px 15px;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
